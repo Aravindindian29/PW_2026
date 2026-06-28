@@ -1,0 +1,27 @@
+{
+  "name": "playwright-testleaf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "qatest": "npx playwright test learnEnviVariables.spec.ts --config=playwright.qa.config.ts",
+    "prodtest": "npx playwright test learnEnviVariables.spec.ts --config=playwright.prod.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "faker": "^5.5.3",
+    "mysql2": "^3.14.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
